@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.one {
+    background: url(../images/brendon.jpg) center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two {
+    background: url(../images/video-background.gif) center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three {
+    background: url(../images/doab.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four {
+    background: #363636;
+}
+header {
+    padding: 10px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-top: 1px solid #929688;
+    border-bottom: 1px solid #929688;
+}
+nav a:hover {
+    transition: .5s ease;
+    color: #929688;
+}

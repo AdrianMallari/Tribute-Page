@@ -1,0 +1,139 @@
+#title {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    filter: drop-shadow(2px 2px 2px black);
+}
+#img-div {
+    display: flex;
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    flex-direction: column;
+}
+#image {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#img-caption {
+    margin: 50px 150px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+@media screen and (max-width: 900px){
+    #image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 730px){
+    #image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #img-caption {
+        margin: 50px 0px;
+    }
+}
+@media screen and (max-width: 400px){
+    #img-div {
+        padding: 50px;
+    }
+}
+.awards {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(2px 2px 2px black);
+    text-align: center;
+    padding: 100px;
+}
+.play {
+    margin: 20px;
+    margin-top: 50px;
+}
+.play a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.play a:hover {
+    transition: .4s ease;
+    background: black;
+}
+@media screen and (max-width: 755px){
+    .awards {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .awards {
+        padding: 50px;
+    }
+}
+.about {
+    padding: 50px;
+    display: inline-flex;
+}
+.about p {
+    margin-left: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+    }
+    .about iframe {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 400px){
+    .about {
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .about p{
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 300px){
+    .about iframe {
+        margin: 0;
+        width: 280px;
+    }
+}
+.videos {
+    padding: 50px;
+    width: 100%;
+    display: inline-flex;
+}
+.videos iframe {
+    max-width: 100%;
+    margin: 20px;
+
+}
+.align {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+}
+@media screen and (max-width: 1145px){
+    .align {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+footer {
+    background: rgb(12, 12, 12);
+    text-align: center;
+    padding: 50px;
+}
+footer p {
+    color: rgb(58, 58, 58);
+    font-style: italic;
+    letter-spacing: 2px;
+}
