@@ -73,35 +73,35 @@
         padding: 50px;
     }
 }
-.about {
+#tribute-info {
     padding: 50px;
     display: inline-flex;
 }
-.about p {
+#tribute-info p {
     margin-left: 20px;
 }
 @media screen and (max-width: 1000px) {
-    .about {
+    #tribute-info {
         flex-direction: column;
     }
-    .about iframe {
+    #tribute-info iframe {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 40px;
     }
 }
 @media screen and (max-width: 400px){
-    .about {
+    #tribute-info {
         padding: 0;
         padding-top: 40px;
         padding-bottom: 30px;
     }
-    .about p{
+    #tribute-info p{
         margin: 20px;
     }
 }
 @media screen and (max-width: 300px){
-    .about iframe {
+    #tribute-info iframe {
         margin: 0;
         width: 280px;
     }
