@@ -1,3 +1,7 @@
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+}
 #title {
     text-align: center;
     font-size: 3em;
@@ -7,7 +11,7 @@
 #img-div {
     display: flex;
     padding: 100px;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 0;
     flex-direction: column;
 }
@@ -61,7 +65,8 @@
 }
 .play a:hover {
     transition: .4s ease;
-    background: black;
+    background: white;
+    color: black;
 }
 @media screen and (max-width: 755px){
     .awards {
@@ -109,32 +114,40 @@
 }
 .videos {
     padding: 50px;
+    height: 100%;
     width: 100%;
     display: inline-flex;
 }
-.videos iframe {
-    max-width: 100%;
-    margin: 20px;
 
-}
-.align {
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-flex;
-}
 @media screen and (max-width: 1145px){
-    .align {
-        flex-direction: column;
-        width: 100%;
-    }
 }
 footer {
     background: rgb(12, 12, 12);
     text-align: center;
-    padding: 50px;
+    padding: 25px;
 }
 footer p {
+    font-family: 'Quicksand', sans-serif;
     color: rgb(58, 58, 58);
     font-style: italic;
-    letter-spacing: 2px;
+}
+.stream {
+    height: 50px;
+}
+.stream a{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.stream a:hover {
+    transition: 0.3s;
+    background: white;
+    color: black;
+}
+.align {
+    margin: 50px;
+}
+.align h2 {
+    margin-bottom: 10px;
 }
